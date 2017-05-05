@@ -1,5 +1,3 @@
-<?php
-echo "song";
-echo "<br>";
-phpinfo();
+<?php  
+require("./demo.html");
 ?>
