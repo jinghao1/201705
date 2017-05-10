@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>demo</title>
+	
 	<script type="text/javascript" src="./js/jquery.min.js"></script>
 	<script type="text/javascript" src="./js/jquery.SuperSlide.2.1.1.js"></script>
 	<script type="text/javascript">
@@ -13,11 +14,14 @@
 	
 	<link href="./css/summarize.css" rel="stylesheet" type="text/css"/>
 	<link href="./css/base.css" rel="stylesheet" type="text/css"/>
+		<link href="./css/idModule.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-	<div id="headerid" class="header"></div>
 
+<div id="headerid" class="header">
+	
+</div>
 	
 	<div id="formact" class="">
 		<p><span>姓名：</span><input type="text" name="username"></p>
@@ -25,23 +29,45 @@
 		<p><span>验证码：</span><input type="text" name="cknum"><span onclick="gtident()" >获取</span></p>
 		<p><input type="button" value="提交"></p> 
 	</div>
-</body>
+
 <script type="text/javascript">
+// $(function(){ 
+//	$.ajax({
+//        type: "get",
+//        url: "http://i.qichedaquan.com/info/header",
+//        dataType: 'jsonp',
+//        jsonp:'callback',
+//        callback:"getHeadCallBack",
+//        timeout: 5000,
+//        success: function (result) {
+//            $("#headerid").html(result);
+          
+//             $('body').append('<script src="./js/idhead.js"><\/script>')
+         
+//        } 
+//    }); 
+//});
+var urlc = 'http://39.155.158.152';
  $(function(){ 
 	$.ajax({
         type: "get",
-        url: "http://i.qichedaquan.com/info/header",
+        url: "/medias/public/index.php/port/Hkinfo/Changecityinfo",
         dataType: 'jsonp',
         jsonp:'callback',
         callback:"getHeadCallBack",
         timeout: 5000,
         success: function (result) {
-            $("#headerid").html(result);
-          
-             $('body').append('<script src="./js/idhead.js"><\/script>')
+	        //console.log(result);
+            $("#headerid").html(result); 
+            $('body').append('<script src="./js/idhead.js"><\/script>')
          
         } 
     }); 
 });
+
 </script>
+
+ 
+</body>
+
 </html>
