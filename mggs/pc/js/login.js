@@ -2,8 +2,8 @@
 
 $(document).ready(function(){
 	 
-	var kkurl = "https://xy.qichedaquan.com/medias/public/index.php/port/";
-	var kkurl = "http://swt.xy.qichedaquan.com/medias/public/index.php/port/";
+	var kkurl = "//xy.qichedaquan.com/medias/public/index.php/port/";
+	//var kkurl = "http://swt.xy.qichedaquan.com/medias/public/index.php/port/";
 	 
 	var proid = "37";
 	$.getJSON(kkurl+"Mingjue/CarClass", {brand_id:70}, function(end){ //循环输出，并追加到购买时间
