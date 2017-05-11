@@ -1,0 +1,39 @@
+body{ background:#fff; }
+img{width:100%;}
+.container{width:100%;}
+.bg01{background: url(../images/bg01.jpg) no-repeat; background-size:100%; height:13.925rem;}
+.bg02{background: url(../images/bg02.jpg) no-repeat; background-size:100%; height:33.025rem;}
+.bg03{background: url(../images/bg03.jpg) no-repeat; background-size:100%; height:18.15rem;}
+.bg04{background: url(../images/bg04.jpg) no-repeat; background-size:100%; height:70.075rem;}
+.bg05{background: url(../images/bg05.jpg) no-repeat; background-size:100%; height:23.7rem;}
+.bg06{background: url(../images/bg06.jpg) no-repeat; background-size:100%; height:29.025rem;}
+.login{float:left;width:9.5rem; margin-left:4rem;margin-top:2.55rem;}
+.login ul li{float:left;width:9.5rem;margin-bottom:0.15rem;height:1.65rem; line-height:1.65rem;}
+.login ul li input{width:100%; font-size:0.7rem; padding-left:0.55rem; color:#909090;}
+.login ul li select{width:100%; font-size:0.7rem; padding-left:0.55rem; color:#909090;}
+.login ul li select option{font-size:0.7rem;color:#909090;}
+.submit{width:4.85rem;height:1.25rem;float:left;margin-top:0.8rem;margin-left:1.5rem;}
+/*swiper*/
+.swiper-container{width:92%;margin-left:4%;padding-top:3.325rem;}
+.swiper-containers{width:92%;margin-left:4%;padding-top:2.85rem;overflow:hidden;z-index:1;position:relative;}
+.swiper-wrapper .swiper-slide img{width:100%;}
+.swiper-pagination{margin:0rem auto; text-align:center;width:100%; margin-top:0.25rem;}
+.swiper-pagination .swiper-pagination-bullet{background: #7a7c7b;width:5px;height:5px;text-align:center;margin:0 5px;}
+.swiper-pagination .swiper-pagination-bullet-active{background: #fff;}
+.swiper-containers .swiper-button-prev{background-image: url(../images/left.png);width:0.875rem;height:0.875rem;background-size:0.875rem 0.875rem;}
+.swiper-containers .swiper-button-next{background-image: url(../images/right.png);width:0.875rem;height:0.875rem;background-size:0.875rem 0.875rem;}
+
+.jrgw {margin-top:2.46rem;width:4.85rem;height:1.25rem; margin-left:5.7rem;}
+.jrgw a{display: block;height:1.25rem;}
+
+/*placeholder*/
+input::-webkit-input-placeholder{
+        color: #909090;
+}
+input::-moz-placeholder{  
+        color: #909090;        
+}
+input:-ms-input-placeholder{  
+        color: #909090;        
+}
+
