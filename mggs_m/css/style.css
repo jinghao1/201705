@@ -10,7 +10,7 @@ img{width:100%;}
 .login{float:left;width:9.5rem; margin-left:4rem;margin-top:2.55rem;}
 .login ul li{float:left;width:9.5rem;margin-bottom:0.15rem;height:1.65rem; line-height:1.65rem;}
 .login ul li input{width:100%; font-size:0.7rem; padding-left:0.55rem; color:#909090;}
-.login ul li select{width:100%; font-size:0.7rem; padding-left:0.55rem; color:#909090;}
+.login ul li select{width:100%; font-size:0.7rem; padding-left:0.55rem; color:#909090; background: url(../images/icon.png) no-repeat 8.5rem center;}
 .login ul li select option{font-size:0.7rem;color:#909090;}
 .submit{width:4.85rem;height:1.25rem;float:left;margin-top:0.8rem;margin-left:1.5rem;}
 /*swiper*/

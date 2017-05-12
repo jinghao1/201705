@@ -1,7 +1,7 @@
 <?php 
 //名爵 手机端
 
-include("./jue.html");
+include("./mj.html");
 echo '<input type="hidden" name="fromwh" value="1" />';
  
 if(isset($_GET['self'])){
