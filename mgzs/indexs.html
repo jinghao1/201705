@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+ 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>名爵ZS</title>
+<meta name="format-detection" content="telephone=no"/>
+<link href="css/zsSty.css" rel="stylesheet" type="text/css"/>
+<link href="css/base.css" rel="stylesheet" type="text/css"/>
+<link href="css/summarize.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="http://player.youku.com/jsapi"></script>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.roundabout-1.0.min.js"></script>
+</head>
+<body> 
+	<!-- 头部 -->
+	<div id="headerid" class="header"></div>  
+	<!-- 头部-end --> 				
+    <!-- bg01 -->
+    <div class="bg01">
+    </div>
+    <!-- bg01-ending -->
+    <!-- bg02 -->
+    <div class="bg02">
+        <div class="container">
+            <div class="logins">
+                <ul>
+                    <li><span><b>*</b><input class="names" type="text" value="请输入您的姓名" name="name" /></span><font><i><input type="radio" name="sexId" value="1" checked /></i><a>先生</a><i><input name="sexId" value="2" type="radio"/></i><a>女士</a></font></li>
+                    <li style="margin-bottom:32px;"><span><b>*</b><input type="text" name="phone" value="请输入您的手机号码" /></span></li>
+                    <li><span><b>*</b><input type="text" value="请输入您的地址" name="address"/></span></li>
+                </ul>
+                <p class="btn"></p>
+            </div>
+        </div>
+    </div>
+    <!-- bg02-ending -->
+    <!-- bg03 -->
+    <div class="bg03">
+        <div class="container">
+            <div class="car"><img src="images/car.png"/></div>
+            <div class="imgs">
+                <img src="images/img01.png"/>
+                <img src="images/img02.png"/>
+                <img src="images/img03.png"/>
+                <img src="images/img04.png"/>
+                <img src="images/img05.png"/>
+                <img src="images/img06.png"/>
+            </div>
+            <div class="wzs">
+                <ul>
+                    <li class="on"><img src="images/z1.png"/></li>
+                    <li><img src="images/z2.png"/></li>
+                    <li><img src="images/z3.png"/></li>
+                    <li><img src="images/z4.png"/></li>
+                    <li><img src="images/z5.png"/></li>
+                    <li><img src="images/z6.png"/></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- bg03-ending -->
+    <!-- bg04 -->
+    <div class="bg04">
+        <div class="container">
+            <div class="jmCarsOne"><!-- 4008 -->
+                    <div id="featured-area">
+                        <ul>
+                            <li><a><img src="images/pic01.png"/></a></li>
+                            <li><a><img src="images/pic02.png"/></a></li>
+                            <li><a><img src="images/pic03.png"/></a></li>
+                            <li><a><img src="images/pic04.png"/></a></li>
+                            <li><a><img src="images/pic05.png"/></a></li>
+                            <li><a><img src="images/pic06.png"/></a></li>
+                            <li><a><img src="images/pic07.png"/></a></li>
+                            <li><a><img src="images/pic08.png"/></a></li>
+                        </ul>
+                        <div class="ban_l_btn"><img src="images/left.png"/></div>
+                        <div class="ban_r_btn"><img src="images/right.png"/></div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- bg04-ending -->
+    <!-- bg05 -->
+    <div class="bg05">
+        <div class="container">
+            <div class="v_box">
+                <div id="youkuplayer" style="width:749px;height:468px"></div>
+            </div>
+            <div class="jr"><a target="_blank" href="http://www.saicmg.com/mgzs/"></a></div>
+        </div>
+
+    </div>
+    <!-- bg05-ending -->
+    <!-- 专题负责人 -->
+	<div class="author"><div class="section">专题负责人：赵子韩/闫树晗</div></div>
+	<!-- 底部 -->
+	<div class="footer" style="position: relative; bottom: 0px;">
+		<div class="footer" style="position: relative; bottom: 0px;">
+			<div class="footer_content"> 
+				<p> </p>
+				<div>
+					<span>京ICP备17011360号-1</span>
+					@2016-2017  <a href="javascript:void (0)">www.qichedaquan.com</a> All Rights Reserved. 北京行圆汽车信息技术有限公司所有
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 底部-end -->
+
+<script type="text/javascript">
+    player = new YKU.Player('youkuplayer',{
+    styleid: '0',
+    client_id: '8dea6b110e2bc49d',
+    vid: 'XMjc3MzYzMDcwOA==',
+    newPlayer: true,
+    show_related:false
+    });
+</script>
+<script  type="text/javascript">
+//百度统计
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ea4c1b1750dff17784d733afc6de6a01";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script> 
+<script type="text/javascript">
+var ymurl = "http://h5.qlh520.top";
+var ymurl = "http://xy.qichedaquan.com";
+$(".btn").click(function(){
+    //名字不为空
+        var name = $("input[name='name']").val();
+        if(name == "" || name == "请输入您的姓名" ){
+            alert("请输入您的姓名");
+            $("input[name='name']").focus();
+            return false;
+        }
+        if (!name.match(/^([\u4E00-\u9FA5]{2,4}$)|(^[a-zA-Z]{1,8}$)/)){ 
+            alert("抱歉，姓名需要输入2-4位汉字或八个英文字母");
+            return false;
+        }
+        //性别，必选
+        var sex = $("input[name='sexId']:checked").val();
+      
+        //手机号验证
+        var phone = $("input[name='phone']").val();
+        if (phone == "" || phone == "请输入您的手机号") { 
+            alert("手机号码不能为空！");  
+            return false; 
+        }  
+        if (!phone.match(/^(((1[3|5|7|8][0-9]{1}))+\d{8})$/)) { 
+            alert("手机号码格式不正确！");  
+            return false; 
+        }
+        
+        //我的地址验证
+        var address = $("input[name='address']").val();
+        if(address == "" || address == "请输入您的地址"){
+            alert("您的地址不能为空!");
+            return false;
+        }
+})
+
+//头部底部信息
+$(document).ready(function(){  
+    var url=window.location.href;
+    if(window.location.href.indexOf("?querytype")==-1){
+        url=window.location.href +"?querytype=1";
+    }
+    $.ajax({
+        type: "get",
+        url: "http://i.qichedaquan.com/info/header?backurl="+url,
+        dataType: 'jsonp',
+        jsonp:'callback',
+        callback:"getHeadCallBack",
+        timeout: 5000,
+        success: function (result) {
+            $("#headerid").html(result);
+            $('body').append('<script src="http://static.qcdqcdn.com/js/index.js"><\/script>')
+        } 
+    });  
+    /*亮点展示*/
+    $(".wzs ul li").mouseover(function(){
+        //alert(1);
+         var i = $(this).index();//下标第一种写法
+            //var i = $('tit').index(this);//下标第二种写法
+            $(this).addClass('on').siblings().removeClass('on');
+            $('.imgs img').eq(i).show().siblings().hide();
+    })  
+    //精美大图
+    $('#featured-area ul').roundabout({
+        /*easing: 'easeOutInCirc',
+        duration: 600,
+        enableDrag: true*/
+        duration: 600, // 运动速度
+        btnPrev: ".ban_r_btn", // 右按钮
+        btnNext: ".ban_l_btn", // 左按钮
+        autoplay: true,        // 自动播放
+        //autoplayDuration: 1500,// 自动播放的时间
+       // minOpacity: 0,         //最小的透明度
+        maxOpacity: 1,         //最大的透明度
+        reflect: true,         // 为true时是从左向右移动，为false从右向左移动
+        startingChild: 1,      // 默认的显示第几张图片
+        autoplayInitialDelay: 2000, // 从第几秒时，开始自动播放（默认毫秒）开始的第一次管用
+        autoplayPauseOnHover: true, // 鼠标移入元素内是否自动播放，为true不播放，false还自动播放
+       // enableDrag: true       // 在移动端可以拖拽播放
+    });
+})
+</script>  
+</body>
+</html>
